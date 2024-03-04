@@ -2,6 +2,16 @@ import * as React from 'react';
 import { CTAButton } from './CTAButton';
 import './CustomModal.css'
 import { TextField } from '@mui/material';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme) => ({
+   button: {
+     backgroundColor: 'orange',
+     '&:hover': {
+       backgroundColor: 'orange',
+     },
+   },
+}));
 
 function CustomModal() {
 
