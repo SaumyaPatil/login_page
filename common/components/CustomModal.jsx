@@ -35,7 +35,6 @@ function CustomModal() {
                   sx={{
                      backgroundColor: "orange"
                   }}
-                  
                />
             </div>
          </div>
