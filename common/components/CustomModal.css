@@ -1,0 +1,53 @@
+
+#topContainer {
+    
+    background-color: white;
+    width: 550px;
+    margin-top: 90px;
+    box-shadow: 2px 2px 30px rgb(26, 25, 25 , 0.5);
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
+#container {
+    height: 350px; 
+    width: 550px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#topBar {
+    background-color: rgb(13, 13, 54); 
+    height: 60px; 
+    display: flex; 
+    width: 100%;
+    align-items: center;
+    
+} 
+
+#topBarText {
+    font-size: 20px; 
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;  
+    padding: 40px;
+   
+}
+
+.titleText {
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+.secondContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 7px; 
+}
+
+#loginButton {
+    margin: 40px;
+}
