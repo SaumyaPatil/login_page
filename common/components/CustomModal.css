@@ -1,8 +1,7 @@
 
 #topContainer {
-    
     background-color: white;
-    width: 550px;
+    width: 480px;
     margin-top: 90px;
     box-shadow: 2px 2px 30px rgb(26, 25, 25 , 0.5);
     border-radius: 10px; 
@@ -11,7 +10,7 @@
 
 #container {
     height: 350px; 
-    width: 550px; 
+    width: 100%; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,20 +33,25 @@
     font-family: "Roboto", sans-serif;
     font-weight: 600;  
     padding: 40px;
-   
 }
 
 .titleText {
     font-family: "Roboto", sans-serif;
     color: black;
+    font-size: 16px;
 }
 
 .secondContainer {
     display: flex;
     flex-direction: column;
+    padding: 0 30px;
     gap: 7px; 
 }
 
 #loginButton {
     margin: 40px;
+}
+
+#loginButton:hover {
+    background-color: orange; /* Color on hover */
 }

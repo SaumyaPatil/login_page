@@ -4,15 +4,12 @@ import CustomModal from '../../common/components/CustomModal';
 
 const Landing = () => {
     return (
-        <> 
-           <div id='landingContainer' >
-
-          
-          <div id='CustomModal' >
-
-            <CustomModal  />
-        </div>
-        </div>
+        <>
+            <div id='landingContainer' >
+                <div id='CustomModal' >
+                    <CustomModal />
+                </div>
+            </div>
         </>
     )
 };
